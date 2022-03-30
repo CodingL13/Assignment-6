@@ -17,5 +17,3 @@ export class Satellite {
         return this.type.toUpperCase() === "SPACE DEBRIS";
     }
 }
-
-// TODO 3a: fix isSpaceDebris check
