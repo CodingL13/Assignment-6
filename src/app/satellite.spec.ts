@@ -26,6 +26,3 @@ it('isSpaceDebris should return true if debris type', () => {
   let junk = new Satellite("foo", "Space Debris", "baz", "lur", false);
   expect(junk.isSpaceDebris()).toEqual(true);
 });
-
-
-});
